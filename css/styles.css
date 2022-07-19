@@ -62,7 +62,7 @@ h1,h2,h3,h4,p {
     max-width: 100%;
 }
 
-/* SECTIONS-CONTAINER */
+/* CONTAINER + LOGO */
 
 .container {
     width: 1200px;
@@ -70,17 +70,37 @@ h1,h2,h3,h4,p {
     padding: 94px 15px;
    }
 
-.logo {
-    color: var(--logo-color);
-    font-family: 'Raleway', sans-serif;
+/* TITLES */
+
+.title {
+    color: var(--title-text-color);
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
 }
 
-.logo__accent-part {
-    color: var(--accent-color);
+.cases__title,
+.team__title,
+.clients__title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    margin-bottom: 50px;
+}
+
+.title--visually-hidden,
+.checkbox__field--visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 /* HEADER */
@@ -101,6 +121,19 @@ h1,h2,h3,h4,p {
     justify-content: space-between;
     padding: 24px 0;
     }
+
+.logo {
+    color: var(--logo-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo__accent-part {
+    color: var(--accent-color);
+}
 
 .main-nav__logo {
     margin-right: 93px;
@@ -165,37 +198,7 @@ h1,h2,h3,h4,p {
 }
 
 
-/* TITLES */
 
-.title {
-    color: var(--title-text-color);
-    font-weight: 700;}
- 
-.cases__title, 
-.team__title, 
-.clients__title {
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    margin-bottom: 50px;
-}
-
-/* ?????????????????? */
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;}
 
 /* HERO */
 
