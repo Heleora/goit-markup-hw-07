@@ -1,0 +1,39 @@
+.features {
+    padding-bottom: 0;}
+
+.features-list {
+       display: flex;
+
+        &__item {
+            flex-basis: calc((100% - (3 * $margin-card)) / 4);
+
+            & + & {
+               margin-left: $margin-card;
+}
+
+            &-title {
+                font-size: 14px;
+                line-height: 1.14;
+                text-transform: uppercase;
+                letter-spacing: 0.03em;
+
+                margin-bottom: 10px;
+}
+        }
+
+        &__icon-container {
+           display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+        background-color: $background-filter-features;
+
+        margin-bottom: $margin-card;
+}
+
+        &__text {
+           font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+}
+}

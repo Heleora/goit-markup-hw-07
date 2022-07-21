@@ -1,0 +1,39 @@
+.main-nav {
+    display: flex;
+    align-items: center;
+
+
+    &__logo {
+        margin-right: 93px;
+}
+
+    &__item:not(:last-child) {
+        margin-right: 50px;
+}
+
+    &__link {
+        color: $title-text-color;
+        transition: color 250ms $transition-timing-function;
+
+        &:hover,
+        &:focus,
+        &--current {
+            color: $accent-color;
+}
+        &--current {
+            position: relative;
+}
+        &--current::after {
+            position: absolute;
+            bottom: -32px;
+            left: 0;
+
+            display: block;
+            content: '';
+            width: 100%;
+            height: 4px;
+            background-color: $accent-color;
+            border-radius: 4px;
+}
+}
+}
