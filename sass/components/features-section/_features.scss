@@ -22,18 +22,18 @@
         }
 
         &__icon-container {
-           display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 120px;
-        background-color: $background-filter-features;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 120px;
+          background-color: $background-filter-features;
 
-        margin-bottom: $margin-card;
+          margin-bottom: $margin-card;
 }
 
         &__text {
            font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
+           line-height: 1.71;
+           letter-spacing: 0.03em;
 }
 }

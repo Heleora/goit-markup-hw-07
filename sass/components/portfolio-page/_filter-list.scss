@@ -21,16 +21,16 @@
         border: none;
 
         transition: color 250ms $transition-timing-function,
-            background-color 250ms $transition-timing-function,
-            border-radius 250ms $transition-timing-function,
-            box-shadow 250ms $transition-timing-function;
-}
+        background-color 250ms $transition-timing-function,
+        border-radius 250ms $transition-timing-function,
+        box-shadow 250ms $transition-timing-function;
 
-    &__button:hover,
-    &__button:focus {
-        color: $text-color-secondary;
-        background-color: $accent-color;
-        border-radius: 4px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        &:hover,
+        &:focus {
+            color: $text-color-secondary;
+            background-color: $accent-color;
+            border-radius: 4px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 }
 }

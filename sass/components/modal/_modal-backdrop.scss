@@ -8,7 +8,7 @@
 
     opacity: 1;
     transition: opacity 250ms $transition-timing-function,
-        visibility 250ms $transition-timing-function;
+    visibility 250ms $transition-timing-function;
 
 
     &.is-hidden {
