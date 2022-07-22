@@ -1,0 +1,6 @@
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * $margin-card);
+    margin-top: calc(-1 * $margin-card);
+}

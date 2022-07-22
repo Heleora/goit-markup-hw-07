@@ -33,3 +33,14 @@
         fill: $text-color-secondary;
 }
 }
+
+// Socials in footer
+
+.socials__link--background {
+    background-color: $background-footer-icon;
+    border-radius: 50%;
+}
+
+.socials__icon--secondary-color {
+    fill: $text-color-secondary;
+}

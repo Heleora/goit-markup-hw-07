@@ -1,0 +1,21 @@
+.closing-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid $closing-button-border;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: $background-modal;
+
+    &__icon {
+        fill: $closing-button-fill;
+        transition: fill 250ms $transition-timing-function;
+}
+
+    &__icon:hover,
+    &__icon:focus {
+        fill: $accent-color;
+}
+}

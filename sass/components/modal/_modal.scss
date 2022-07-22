@@ -1,0 +1,19 @@
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 530px;
+    height: 600px;
+    background-color: $background-modal;
+    border-radius: 4px;
+    padding: 40px;
+    overflow-y: auto;
+
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 250ms $transition-timing-function;
+
+
+.modal-backdrop.is-hidden & {
+    transform: translate(-50%, -50%) scale(.9);
+}
+}

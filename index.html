@@ -427,30 +427,30 @@
             <div role="group" aria-labelledby="contact-details">
                 <p class="contact-form__title" id="contact-details">Оставьте свои данные, мы вам перезвоним</p>
             
-                <div class="contact-form__inner">
-                    <label class="contact-form__label" for="user-name">Имя</label>
-                    <input class="form-field" type="text" name="user-name" id="user-name" />
-                    <svg class="contact-form__icon" aria-hidden="true">
+                <div class="contact-item">
+                    <label class="contact-item__label" for="user-name">Имя</label>
+                    <input class="contact-item__field" type="text" name="user-name" id="user-name" />
+                    <svg class="contact-item__icon" aria-hidden="true">
                         <use href="./images/icons.svg#icon-person"></use>
                     </svg>
                 </div>
-                <div class="contact-form__inner">
-                    <label class="contact-form__label" for="user-tel">Телефон</label>
-                    <input class="form-field" type="tel" name="user-tel" id="user-tel" />
-                    <svg class="contact-form__icon" aria-hidden="true">
+                <div class="contact-item">
+                    <label class="contact-item__label" for="user-tel">Телефон</label>
+                    <input class="contact-item__field" type="tel" name="user-tel" id="user-tel" />
+                    <svg class="contact-item__icon" aria-hidden="true">
                         <use href="./images/icons.svg#icon-tel"></use>
                     </svg>
                 </div>
-                <div class="contact-form__inner">
-                    <label class="contact-form__label" for="user-mail">Почта</label>
-                    <input class="form-field" type="email" name="user-mail" id="user-mail" />
-                    <svg class="contact-form__icon" aria-hidden="true">
+                <div class="contact-item">
+                    <label class="contact-item__label" for="user-mail">Почта</label>
+                    <input class="contact-item__field" type="email" name="user-mail" id="user-mail" />
+                    <svg class="contact-item__icon" aria-hidden="true">
                         <use href="./images/icons.svg#icon-email"></use>
                     </svg>
                 </div>
-                <div class="contact-form__inner">
-                    <label class="contact-form__label" for="comment">Комментарий</label>
-                    <textarea class="form-field form-field--textarea-size" name="comment" id="comment" rows="6" placeholder="Введите текст"></textarea>
+                <div class="contact-item">
+                    <label class="contact-item__label" for="comment">Комментарий</label>
+                    <textarea class="contact-item__field contact-item__field--textarea" name="comment" id="comment" rows="6" placeholder="Введите текст"></textarea>
                 </div>
         </div>
                     <label class="checkbox" for="checkbox">
@@ -463,7 +463,7 @@
                         <span class="checkbox__label">Соглашаюсь с рассылкой и принимаю</span><a href="#" class="checkbox__link">Условия договора</a>
                     </label>
                             
-                <button type="submit" class="button button--modal-shadow">Отправить</button>
+                <button type="submit" class="button contact-form__button">Отправить</button>
             </form>
     </div>
 </div>

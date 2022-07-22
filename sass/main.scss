@@ -1,20 +1,38 @@
-@import './utils/vars';
-@import './base/common';
-@import './components/container';
-@import './components/titles';
-@import './utils/visually-hidden';
-@import './components/logo';
-@import './components/header/page-header';
-@import './components/header/main-nav';
-@import './components/contact-link';
-@import './components/hero-section';
-@import './components/button';
-@import './components/features-section';
-@import './components/cases-section';
-@import './components/team-section/team-section';
-@import './components/team-section/agent-card';
-@import './components/socials';
-@import './components/brand-list';
+@import'./utils/vars';
+@import'./base/common';
+@import'./components/container';
+@import'./base/titles';
+@import'./utils/visually-hidden';
+@import'./components/logo';
+@import'./components/header/page-header';
+@import'./components/header/main-nav';
+@import'./components/contact-link';
+@import'./components/hero-section/hero';
+@import'./components/button';
+@import'./components/features-section/features';
+@import'./components/cases-section/cases';
+@import'./components/team-section/team';
+@import'./components/team-section/agent-card';
+@import'./components/socials';
+@import'./components/clients-section/brand-list';
+@import'./components/footer/footer';
+@import'./components/footer/submit-form';
+@import'./components/portfolio-page/filter-list';
+@import'./components/portfolio-page/product-grid';
+@import'./components/portfolio-page/product-card';
+@import'./components/modal/modal';
+@import'./components/modal/modal-backdrop';
+@import'./components/modal/closing-button';
+@import'./components/modal/contact-form';
+@import'./components/modal/contact-item';
+@import'./components/modal/checkbox';
+
+
+
+
+
+
+
 
 
 
