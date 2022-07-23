@@ -34,7 +34,7 @@ p {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding: 94px 15px;
+  padding: 0 15px;
 }
 
 .title {
@@ -80,6 +80,7 @@ p {
 }
 
 .page-header {
+  padding: 24px 0;
   background-color: #ffffff;
   font-weight: 500;
   font-size: 14px;
@@ -94,7 +95,6 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 24px 0;
 }
 .page-header__contacts {
   display: -webkit-box;
@@ -177,6 +177,7 @@ p {
   max-width: 1600px;
   max-height: 600px;
   margin: 0 auto;
+  margin-bottom: 94px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -213,7 +214,8 @@ p {
 }
 
 .features {
-  padding-bottom: 0;
+  padding: 0;
+  margin-bottom: 94px;
 }
 
 .features-list {
@@ -255,6 +257,10 @@ p {
   letter-spacing: 0.03em;
 }
 
+.cases {
+  padding: 0;
+  margin-bottom: 94px;
+}
 .cases-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -281,6 +287,8 @@ p {
 }
 
 .team {
+  padding: 94px 0;
+  margin-bottom: 94px;
   background-color: #f5f4fa;
 }
 .team-list {
@@ -359,6 +367,11 @@ p {
   fill: #ffffff;
 }
 
+.clients {
+  padding: 0;
+  margin-bottom: 94px;
+}
+
 .brand-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -393,6 +406,7 @@ p {
 }
 
 .page-footer {
+  padding: 60px 0;
   background-color: #2f303a;
   font-size: 14px;
   line-height: 1.71;
@@ -403,7 +417,6 @@ p {
   display: -ms-flexbox;
   display: flex;
   color: #ffffff;
-  padding: 60px 0;
 }
 .page-footer__address {
   min-width: 216px;
@@ -498,6 +511,10 @@ p {
   width: 24px;
   height: 24px;
   margin-left: 10px;
+}
+
+.works {
+  margin: 94px 0;
 }
 
 .filter-list {
